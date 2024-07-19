@@ -3,6 +3,8 @@ import numpy as np
 import matplotlib.pylab as plb
 import statsmodels.api as sm
 import pandas as pd
+import seaborn as sb
+
 plb.style.use('default')
 plb.rc('axes', titlesize=10)
 
