@@ -13,19 +13,19 @@ if 'X' not in st.session_state:
 if 'Y' not in st.session_state:
     st.session_state.Y = [] 
     
-col1, col2 = st.columns(2, gap = 'large')
+#col1, col2 = st.columns(2, gap = 'large')
 
-with col1:
+#with col1:
 
-    st.image("ifrnead.jpg")
+ #st.image("ifrnead.jpg")
 
-with col2:
+#with col2:
 
-    st.image("tsi.jpg")
-st.divider()
+   #st.image("tsi.jpg")
+#st.divider()
 
 st.title('Calculadora de curva de calibração')
-st.subheader('Como exemplo inicial criaremos um regressão linear simples (MRLS), a partir de dados de leituras de absorbâncias de soluções da substância X em diferentes concentrações.')
+st.subheader('Calcule uma regressão linear simples (MRLS), a partir de dados de leituras de absorbâncias de soluções da substância X em diferentes concentrações.')
 st.write('')
 st.subheader('Inserir as concentrações e absorbâncias obtidas das soluções usadas para curva de calibração.')
 st.write('')
