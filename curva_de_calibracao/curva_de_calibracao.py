@@ -17,11 +17,11 @@ col1, col2 = st.columns(2, gap = 'large')
 
 with col1:
 
-    st.image("C:/Users/Ronaldo/Documents/ifrnead.jpg")
+    st.image("ifrnead.jpg")
 
 with col2:
 
-    st.image("C:/Users/Ronaldo/Documents/tsi.jpg")
+    st.image("tsi.jpg")
 st.divider()
 
 st.title('Calculadora de curva de calibração')
