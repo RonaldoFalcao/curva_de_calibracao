@@ -17,16 +17,16 @@ if 'Y' not in st.session_state:
 if 'absorbancia' not in st.session_state:
     st.session_state.absorbancia = []
 
-figura1 = Image.open('figures/ifrnead.jpg') 
-figura2 = Image.open('figures/tsi.jpg')  
+#figura1 = Image.open('figures/ifrnead.jpg')
+#figura2 = Image.open('figures/tsi.jpg')  
 
-col1, col2 = st.columns(2, gap = 'large')
+#col1, col2 = st.columns(2, gap = 'large')
 
-with col1:
-    st.image(figura1)
-with col2:
-    st.image(figura2) 
-st.divider()
+#with col1:
+    #st.image(figura1)
+#with col2:
+  #  st.image(figura2)
+#st.divider()'''
 
 st.title('Calculadora de curva de calibração')
 st.subheader('Construa a sua curva de calibração usando uma regressão linear simples (MRLS), a partir de dados de leituras de absorbâncias de soluções da substância X em diferentes concentrações (na unidade de concentração adequada (U.C.)).')
